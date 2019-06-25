@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54f14338-f545-45d1-a7e9-499b35ee4937">
+  <name>РаботаСМоделямиГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с моделями глобальный</value>
+  </synonym>
+  <comment></comment>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

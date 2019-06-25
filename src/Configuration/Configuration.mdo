@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a555d19-da90-42f1-9311-504ee0aab65a">
+  <name>Конфигурация</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="93877dd2-3341-4407-bd4f-59cb306e1835"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7718eca3-92c7-4b40-99f0-be333f3f217d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="af04a8b1-8216-48dd-8bc9-87a1be87e208"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d5f017da-3b07-4561-9abd-e1ad15d14edc"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="72f39eb0-21f9-41ca-9f5a-ec8d24093b0c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2a336bd6-d4d4-46e7-bc2a-47d38b8506a4"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="474542b2-6437-429a-a8d4-6504d41b896c">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.Модель_Документ_ПриходКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЦенообразованиеВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСМоделямиГлобальный</commonModules>
+  <commonModules>CommonModule.РаботаСМоделямиВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.Приход</documents>
+  <dataProcessors>DataProcessor.СозданиеПриходов</dataProcessors>
+  <dataProcessors>DataProcessor.ПодборТоваров</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+</mdclass:Configuration>

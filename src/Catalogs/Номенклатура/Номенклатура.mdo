@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a26f006-01f3-40fa-94ae-4b0643d9cd47">
+  <producedTypes>
+    <objectType typeId="bb3edf6f-bc8b-4850-8991-52fd02a3e6bf" valueTypeId="2b0be247-950f-43ab-9acc-53ae79513dc4"/>
+    <refType typeId="5ad234cd-dfeb-4b9d-a169-1f6f1307ebb0" valueTypeId="99de5588-276e-456a-8e7f-2ca1e8564c77"/>
+    <selectionType typeId="1839cee0-2f60-4eb9-83fb-d0c2f353ec4f" valueTypeId="4868b08d-17bf-40f7-abb6-29acf3b03270"/>
+    <listType typeId="84c084f2-4257-44c3-a353-d3e95d07c8f7" valueTypeId="b20ab1da-b3eb-448f-8a92-58f68d81a2a8"/>
+    <managerType typeId="d5cc736b-c3b7-4e75-9816-d317e4a02547" valueTypeId="24fdedf7-33f8-451b-8c42-384b4fce87f8"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="aea25536-d904-4bca-91c4-16cc05250a6e">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
