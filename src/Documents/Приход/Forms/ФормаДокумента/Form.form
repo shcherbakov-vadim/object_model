@@ -710,6 +710,108 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ТоварыТипНоменклатуры</name>
+      <id>57</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Товары.ТипНоменклатуры</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ТоварыТипНоменклатурыРасширеннаяПодсказка</name>
+        <id>59</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТоварыТипНоменклатурыКонтекстноеМеню</name>
+        <id>58</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <readOnly>true</readOnly>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ТоварыДлинаТипаНоменклатуры</name>
+      <id>60</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Товары.ДлинаТипаНоменклатуры</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ТоварыДлинаТипаНоменклатурыРасширеннаяПодсказка</name>
+        <id>62</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТоварыДлинаТипаНоменклатурыКонтекстноеМеню</name>
+        <id>61</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <readOnly>true</readOnly>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <autoCommandBar>
       <name>ТоварыКоманднаяПанель</name>
       <id>9</id>
@@ -788,6 +890,14 @@
     <handlers>
       <event>AfterDeleteRow</event>
       <name>ТоварыПослеУдаления</name>
+    </handlers>
+    <handlers>
+      <event>BeforeDeleteRow</event>
+      <name>ТоварыПередУдалением</name>
+    </handlers>
+    <handlers>
+      <event>OnStartEdit</event>
+      <name>ТоварыПриНачалеРедактирования</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
@@ -1013,6 +1123,24 @@
           <common>true</common>
         </edit>
       </columns>
+      <columns>
+        <name>ДлинаТипаНоменклатуры</name>
+        <title>
+          <key>ru</key>
+          <value>Длина типа номенклатуры</value>
+        </title>
+        <id>3</id>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
     </additionalColumns>
   </attributes>
   <attributes>
@@ -1035,6 +1163,76 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>СлужебныеРеквизитыИнициализированы</name>
+    <title>
+      <key>ru</key>
+      <value>Служебные реквизиты инициализированы</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТаблицаПоляКоллекций</name>
+    <title>
+      <key>ru</key>
+      <value>Таблица поля коллекций</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>Коллекция</name>
+      <title>
+        <key>ru</key>
+        <value>Коллекция</value>
+      </title>
+      <id>6</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Поле</name>
+      <title>
+        <key>ru</key>
+        <value>Поле</value>
+      </title>
+      <id>7</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <formCommands>
     <name>ЗаполнитьТовары</name>

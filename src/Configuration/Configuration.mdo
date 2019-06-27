@@ -16,6 +16,7 @@
   <vendor></vendor>
   <version></version>
   <updateCatalogAddress></updateCatalogAddress>
+  <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -32,7 +33,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonModules>CommonModule.Модель_Документ_ПриходКлиентСервер</commonModules>
-  <commonModules>CommonModule.ЦенообразованиеВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаСМоделямиГлобальный</commonModules>
   <commonModules>CommonModule.РаботаСМоделямиВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
