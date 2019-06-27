@@ -718,8 +718,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.ТипНоменклатуры</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Товары.ТипНоменклатуры</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТоварыТипНоменклатурыРасширеннаяПодсказка</name>
@@ -769,8 +771,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Товары.ДлинаТипаНоменклатуры</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Товары.ДлинаТипаНоменклатуры</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТоварыДлинаТипаНоменклатурыРасширеннаяПодсказка</name>
@@ -888,16 +892,16 @@
       <name>ТоварыПриОкончанииРедактирования</name>
     </handlers>
     <handlers>
-      <event>AfterDeleteRow</event>
-      <name>ТоварыПослеУдаления</name>
-    </handlers>
-    <handlers>
       <event>BeforeDeleteRow</event>
       <name>ТоварыПередУдалением</name>
     </handlers>
     <handlers>
       <event>OnStartEdit</event>
       <name>ТоварыПриНачалеРедактирования</name>
+    </handlers>
+    <handlers>
+      <event>AfterDeleteRow</event>
+      <name>ТоварыПослеУдаления</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
