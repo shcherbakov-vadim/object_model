@@ -34,7 +34,6 @@
   </languages>
   <commonModules>CommonModule.Модель_Документ_ПриходКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСМоделямиГлобальный</commonModules>
-  <commonModules>CommonModule.РаботаСМоделямиВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.Приход</documents>
