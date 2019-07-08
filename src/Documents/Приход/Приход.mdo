@@ -48,6 +48,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="86aed6eb-a02a-4cfc-b235-cdb289e25708">
+    <name>НоменклатураДляПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура для проверки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="bc8d208a-63a2-4520-b843-1929b53e20b5">
     <name>ФормаДокумента</name>
     <synonym>
