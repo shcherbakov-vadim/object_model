@@ -1204,6 +1204,7 @@
         <name>ЗаполнитьТовары</name>
       </handler>
     </action>
+    <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -1225,6 +1226,7 @@
         <name>ОткрытьПодбор</name>
       </handler>
     </action>
+    <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
