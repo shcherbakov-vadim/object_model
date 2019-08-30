@@ -32,7 +32,7 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
-  <commonModules>CommonModule.Модель_Документ_ПриходКлиентСервер</commonModules>
+  <commonModules>CommonModule.Модель_Документ_Приход</commonModules>
   <commonModules>CommonModule.РаботаСМоделямиГлобальный</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
